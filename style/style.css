@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Outfit', sans-serif;
+  background-color:  hsl(217, 54%, 11%);
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+
+.borda{ 
+  border: solid red 1px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: cyan;
+}
+
+a:hover img {
+  background: cyan;
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#line {
+  border-bottom: solid 0.5px #2E405A;
+  width: 302px;
+}
+
+.card {
+  margin: auto;
+  padding: 24px;
+  border-radius: 15px;
+  width: 300px;
+  height: 546px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+#main-image {
+  background-image: url('../images/image-equilibrium.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 302px;
+  width: 302px;
+  border-radius: 8px;
+}
+
+div#main-image:hover{
+  background-image: linear-gradient(rgba(0, 255, 255, 0.4),rgba(0, 255, 255, 0.4)), url('../images/icon-view.svg'), url('../images/image-equilibrium.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%, 20%, 100%;  
+  background-position: center;  
+}
+
+#main-paragraph {
+  color: #8BACD9;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  font-style: normal;
+  width: 302px;
+  margin-bottom: 8px;
+}
+
+#created-by-text {
+  font-size: 16px;
+  color: #8BACD9;
+  font-weight: 400;
+}
+
+#creator-name {
+  font-weight: 400;
+  color: white;
+}
+
+#etherium-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  gap: 7.7px;
+  margin-bottom: 10px;
+}
+
+#etherium {
+  font-size: 16px;
+  display: inline-block;
+  color: cyan;
+}
+
+#time-left {
+  font-weight: 400;
+  display: inline-block;
+  color: #8BACD9;
+  font-size: 16px;
+  line-height: 20px;
+  padding-right: 3px;
+}
+
+#avatar-row {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 16px;
+  height: 33px;
+  margin-top: 16px;
+}
+
+#avatar-image {
+  height: 33px;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+footer {
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
