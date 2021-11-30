@@ -88,7 +88,7 @@ div#main-image:hover{
   padding: 0px;
 }
 
-#container {
+.container {
   display: flex;
   align-items: center;
   gap: 7.7px;
