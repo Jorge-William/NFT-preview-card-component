@@ -30,9 +30,8 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
-![Desktop](../nft-preview-card-component-main/screenshots/Captura%20de%20Tela%202021-11-30%20às%205.38.32%20PM.png)
-![Mobile](../nft-preview-card-component-main/screenshots/Captura%20de%20Tela%202021-11-30%20às%205.34.42%20PM.png)
+![Desktop](https://user-images.githubusercontent.com/19416864/144131863-52aff674-a6a9-44f7-bcd4-11be26e08e33.png)
+![Mobile](https://user-images.githubusercontent.com/19416864/144131895-9e068c8f-91ef-4c70-b72b-69abb636bac6.png)
 
 
 
